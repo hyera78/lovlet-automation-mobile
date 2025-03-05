@@ -1,0 +1,3 @@
+{
+  "appId": "id.lookin.lovelet.uat"
+}

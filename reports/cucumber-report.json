@@ -1,0 +1,1207 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-new-user;new-user-registers-successfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "New user registers successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 428585
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the app launches",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5796075601
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "email generate",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3754170633
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks the start button",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1126734892
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234606517
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user manually inputs their email",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10010733149
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks the next button in input email",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1837305900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user is on the OTP page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539580535
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user receives the OTP",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5757127861
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user manually inputs the OTP",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6001981005
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user sees the pop up",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263344297
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user clicks create button",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1209309331
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user is on the face verification page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89624801
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user click verify button",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1676222304
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user face verification",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002304346
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user finish the verification user will be in page verification successfully",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:78"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1647987305,
+              "error_message": "Error: Elemen \"You're verified!\" tidak ditemukan: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running \"element\" with method \"POST\" and args \"{\"using\":\"xpath\",\"value\":\"//android.view.View[@content-desc=\\\"You're verified!\\\"]\"}\"\n    at World.<anonymous> (/media/Hyera/New Volume/Kerjaan/Lovelet/lovlet_mobile_automation_testing-main/lovlet_mobile_automation_testing-main/features/register/step_definitions/registerStep.js:84:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user is on input name page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:94"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user input \"Test\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user is on input birthday page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:104"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the user click input birthday",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:107"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the user select the birthday date",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the user click ok",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the user see data in input",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the user see pop up age and zodiac",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:122"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the user click close button",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:125"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user see pop up age and zodiac again",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "the user is on gender select page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:134"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the user click dropdown",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:137"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the user select the gender",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:140"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the user see the data in input",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:143"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user click toggle on hide gender profile",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the user click toggle off hide gender profile",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:149"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "the user is on upload photo page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:155"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the user click icon +",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:158"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the user click gallery",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:161"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the user select photo",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:164"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the user wait process uploading the photo",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "the user click icon + again",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:170"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the user click camera",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "the user take picture",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:176"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the user wait process uploading the photo",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "the user is on page Account Created",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:185"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the user click begin",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:188"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "the user is on what are you looking for page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:191"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "the user click Not sure yet",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:194"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "the user is on what do you want to see",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:200"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the user click Woman",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:203"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "the user is on About you page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:209"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "the user select the Quality Time",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:212"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "the user select the Regularly",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:215"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "the user select never",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "the user scroll down",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "the user select never",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "the user click dropdown whats your height",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:227"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "the user select the height",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:230"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the user see the input change",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "the user select next button",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:278"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "the user is on more about you page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:239"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "the user select graduate degree",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:242"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "the user click dropdown whats industry do you work in",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:245"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "the user select the government",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:248"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "the user see the input change",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "the user select the religion",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:254"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "the user is on vibe page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:260"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "the user select the running in sports",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:263"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "the user select the cat in pets",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:266"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "the user scroll down",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "the user select estj in mbti",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:272"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "the user select photography in interest",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:275"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "the user select next button",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:278"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "the user is on intrigue page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:281"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "the user click input the bio",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:284"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "the user input \"Hallo\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "the user is on age range page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:293"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the user move the slider left to 18",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:296"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "the user move the slider right to 80",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:299"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 91,
+            "name": "the user is on distance page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:305"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "the user move the slider right to 80km",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:308"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 94,
+            "name": "the user is on location page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:314"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "the user click next button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "the user is on its done page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:320"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "the user click start exploring",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:323"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "the user is on home page",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:326"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "the user see the icon card",
+            "match": {
+              "location": "features/register/step_definitions/registerStep.js:329"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 760758
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-new-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register New User",
+    "tags": [],
+    "uri": "features/register/register.feature"
+  }
+]
